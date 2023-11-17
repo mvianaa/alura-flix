@@ -34,7 +34,7 @@ body{
 
 .titulo_principal{
     color: var(--cor-primaria);
-    font-size: 28px;
+    font-size: 1.75rem;
     font-family: 'Inter', sans-serif;
     font-weight: 700;
 }
@@ -46,7 +46,7 @@ body{
 .botoes{
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    gap: 1rem;
     width: 512px;
     padding-top: 40px;
 }
@@ -55,7 +55,7 @@ body{
     background-color: var(--cor-botao-principal);
     border-radius: 8px;
     padding: 16px;
-    font-size: 16px;
+    font-size: 1rem;
     text-decoration: none;
     font-family: 'Inter', sans-serif;
     color: var(--cor-primaria);
@@ -65,7 +65,7 @@ body{
     border: 1px solid var(--cor-primaria);
     border-radius: 8px;
     padding: 16px;
-    font-size: 16px;
+    font-size: 1rem;
     text-decoration: none;
     font-family: 'Inter', sans-serif;
     color: var(--cor-primaria);
@@ -73,7 +73,7 @@ body{
 
 .letras_pequenas{
     color: var(--cor-secundaria);
-    font-size: 12px;
+    font-size: 0.75rem;
     font-family: 'Inter', sans-serif;
 }
 
@@ -95,7 +95,7 @@ body{
 
 .titulo_secundario{
     color: var(--cor-primaria);
-    font-size: 48px;
+    font-size: 3rem;
     font-family: 'Inter', sans-serif;
     font-weight: 700;
     line-height: 70px;
@@ -103,7 +103,7 @@ body{
 
 .subtitulo{
     color: var(--cor-secundaria);
-    font-size: 16px;
+    font-size: 1rem;
     font-family: 'Inter', sans-serif;
     font-weight: 400;
     line-height: 25.5px;
@@ -125,7 +125,7 @@ body{
     background-color: var(--cor-botao-principal);
     border-radius: 8px;
     padding: 16px;
-    font-size: 16px;
+    font-size: 1rem;
     text-decoration: none;
     font-family: 'Inter', sans-serif;
     color: var(--cor-primaria);
