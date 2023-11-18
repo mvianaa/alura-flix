@@ -141,15 +141,40 @@ body{
 
 .encerramento{
     text-align: center;
-    padding-top: 300px;
+    margin-top: 25%;
 }
 
 .meios_de_uso{
     display: flex;
     justify-content: center;
-    padding: 3% 0;
+    margin: 3% 0;
 }
 
-.img_meios{
-    width: 339px;
+.dispositivos{
+    display: flex;
+}
+
+.rodape{
+    text-align: center;
+    margin: 10% 0;
+}
+
+.rodape__lista {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 1em;
+}
+
+.lista__link a{
+    text-decoration: none;
+    color: var(--cor-primaria);
+    margin-left: 1em;
+}
+
+.rodape__texto {
+    margin: 1em 5em;
+    text-align: center;
+    color: var(--cor-secundaria);
+    font-size: 14px;
 }
