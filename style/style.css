@@ -19,6 +19,7 @@ body{
 .conteudo{
     background-image: url(/assets/Background.png);
     background-repeat: no-repeat;
+    background-size: contain; /*faz com que a imagem não saia de dentro do container(elemento pai)*/
     background-position: right;
 }  
 
@@ -28,7 +29,7 @@ body{
     align-items: center;
     text-align: center;
     width: 36.75rem;
-    padding: 10.5% 0% 0% 9.7%;
+    padding: 15% 0% 0% 6%;
     gap: 22px;
 }
 
